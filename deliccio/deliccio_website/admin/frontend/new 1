@@ -1,0 +1,24 @@
+01
+//Code Starts
+02
+function validatePhone(txtPhone) {
+03
+    var a = document.getElementById(txtPhone).value;
+04
+    var filter = /^[0-9-+]+$/;
+05
+    if (filter.test(a)) {
+06
+        return true;
+07
+    }
+08
+    else {
+09
+        return false;
+10
+    }
+11
+}​
+12
+//Code Ends
